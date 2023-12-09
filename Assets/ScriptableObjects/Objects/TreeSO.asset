@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17bd9f9d0f41fa4b961d680f2ae3e8d, type: 3}
+  m_Name: TreeSO
+  m_EditorClassIdentifier: 
+  objectName: Tree
+  image: {fileID: 21300000, guid: b98823f55e771fb489501b95bdc5b6c0, type: 3}
+  id: 4
+  size: {x: 1, y: 1}
+  prefab: {fileID: 1244356121146822497, guid: 519bcc3e6626e7049bab13ea2ca7431f, type: 3}
+  cost: 0
+  costPerTurn: 0
+  population: 1
+  jobs: 1
+  food: 0
+  incomePerJob: 1
+  type: 3

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17bd9f9d0f41fa4b961d680f2ae3e8d, type: 3}
+  m_Name: CoffeeshopSO
+  m_EditorClassIdentifier: 
+  objectName: CoffeeShop
+  image: {fileID: 21300000, guid: 48896e536bcd9cf4e92f49a51dd8b2f5, type: 3}
+  id: 10
+  size: {x: 4, y: 4}
+  prefab: {fileID: 3362181209149132531, guid: d91587affbe455846b32f86139ebc76f, type: 3}
+  cost: 5
+  costPerTurn: 1
+  population: 1
+  jobs: 1
+  food: 1
+  incomePerJob: 3
+  type: 2
