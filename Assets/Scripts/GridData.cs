@@ -12,7 +12,6 @@ public class GridData {
         foreach (var pos in positionsToOccupy) {
             if (placedObjects.ContainsKey(pos)) {
                 throw new Exception($"Dictionary already contains this position: {pos}");
-
             }
             placedObjects[pos] = data;
         }

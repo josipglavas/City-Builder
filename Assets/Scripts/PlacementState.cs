@@ -54,12 +54,12 @@ public class PlacementState : IBuildingState {
             index = objectPlacer.PlaceObject(databaseSO.objectsData[selectedObjectIndex].prefab, grid.CellToWorld(gridPos), rotation);
         }
 
-        GridData selectedData = GridData; //databaseSO.objectsData[selectedObjectIndex].id == 3 ? RugData : ObjectData;
+        GridData selectedData = GridData;
         selectedData.AddObjectAt(gridPos, databaseSO.objectsData[selectedObjectIndex].size, databaseSO.objectsData[selectedObjectIndex].id, index);
         previewSystem.UpdatePos(grid.CellToWorld(gridPos), false);
     }
     private bool CheckPlacement(Vector3Int gridPos, int selectedObjectIndex) {
-        GridData selectedData = GridData;//databaseSO.objectsData[selectedObjectIndex].id == 3 ? RugData : ObjectData;
+        GridData selectedData = GridData;
         return selectedData.CanPlaceObject(gridPos, databaseSO.objectsData[selectedObjectIndex].size);
     }
 

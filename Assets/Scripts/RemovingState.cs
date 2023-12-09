@@ -32,9 +32,6 @@ public class RemovingState : IBuildingState {
         if (!GridData.CanPlaceObject(gridPos, Vector2Int.one)) {
             selectedData = GridData;
         }
-        //else if (!RugData.CanPlaceObject(gridPos, rotation, Vector2Int.one)) {
-        //    selectedData = RugData;
-        //}
 
         if (selectedData == null) {
 
@@ -57,7 +54,6 @@ public class RemovingState : IBuildingState {
 
     private bool CheckIfSelectionIsValid(Vector3Int gridPos, Vector3 gridRotation) {
         return !(GridData.CanPlaceObject(gridPos, Vector2Int.one));
-        //&& RugData.CanPlaceObject(gridPos, gridRotation, Vector2Int.one));
     }
 
     public void UpdateState(Vector3Int gridPos, Vector3 gridRotation, bool isRotating) {
